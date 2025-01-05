@@ -35,7 +35,7 @@ spec:
     - destination:
         host: reviews.default.svc.cluster.local
         subset: v1
-      weight: 13
+      weight: 30
     - destination:
         host: reviews.default.svc.cluster.local
         subset: v2
@@ -43,7 +43,7 @@ spec:
     - destination:
         host: reviews.default.svc.cluster.local
         subset: v3
-      weight: 52
+      weight: 35
   hosts:
   - reviews.default.svc.cluster.local
   gateways: ~
